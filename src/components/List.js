@@ -2,26 +2,41 @@ import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
 import './List.css';
 import Header from './Header'
-var mdp = require('multipleDatePicker');
+import DatePicker from './DatePicker'
 
 const List = () => {
   return (
 <div>
+
   <Header />
-  <h5>LIST YOUR MEMBERSHIP RENTAL HERE</h5>
+  <div className="genaslistpage">
+<div className="center">
+
+    <h5>LIST YOUR MEMBERSHIP RENTAL HERE</h5>
+  </div>
   <form>
     <Row>
-	<Input class="selectgym" type='select' label="Select Your Gym" defaultValue='2'>
-		<option value='1'>Colorado Athletic Club</option>
-		<option value='2'>24 Hour Fitness</option>
-		<option value='3'>Boulder One Fitness</option>
-	</Input>
-</Row>
+      <div className="genas-input">
+      	<Input class="selectgym" type='select'>
+          <p>Select your gym</p>
+      		<option value='1'>Colorado Athletic Club</option>
+      		<option value='2'>24 Hour Fitness</option>
+      		<option value='3'>Boulder One Fitness</option>
+      	</Input>
+      </div>
+    </Row>
 <div>
-    <multiple-date-picker></multiple-date-picker>
+  <p className="center">Select the days you want to list</p>
+  <DatePicker />
+
+</div>
+<div>
+		<Button id="submitlist" waves='light' node='a' href='http://www.google.com'> Submit </Button>
 </div>
 </form>
 </div>
+</div>
+
 )
 }
 
