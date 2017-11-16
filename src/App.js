@@ -4,10 +4,12 @@ import logo from './logo.svg';
 import $ from 'jquery'
 import {Button, Icon, Navbar, NavItem, Row, Input} from 'react-materialize'
 
-import Index from './components/Index'
+import HomePage from './components/HomePage'
 import Payment from './components/Payment'
 import List from './components/List'
 import history from './components/History'
+import ErrorPage from './components/ErrorPage'
+import ListYourMembership from './components/ListYourMembership'
 
 
 class App extends Component {
@@ -20,7 +22,9 @@ class App extends Component {
           <Switch>
             <Route path="/payment" component={Payment} />
             <Route path="/list" component={List} />
-            <Route path="/" component={Index} />
+            <Route path="/list-your-membership" component={ListYourMembership} />
+            <Route path="/:id" component={ErrorPage} />
+            <HomePage />
           </Switch>
         </Router>
 
