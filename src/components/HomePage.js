@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
-import '../App.css';
+import './HomePage.css';
 import Header from '../components/Header'
 
 const Index = () => {
@@ -9,22 +9,16 @@ const Index = () => {
 
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Proxima Nova"></link>
 
-
       <Header />
 
-        <div className="background-container">
+        <div className="homepage-background-container">
           <div className="search-container">
             <div>
-              <h1>FLEX</h1>
+              <h1 className="homepage-header" >FLEX</h1>
               <h5>Rent short-term gym memberships. Work out wherever you want.</h5>
               <div>
                 <Row>
-                	<Autocomplete title='Where'
-              		data={
-              			{
-
-              			}
-              		}/>
+                	<Autocomplete title='Where' data={{}}/>
                 </Row>
                 <Row>
                   <Input label="When" name='on' type='date' onChange={function(e, value) {}} />
