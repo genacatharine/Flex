@@ -1,19 +1,16 @@
 import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
-
-
+import '../App.css';
+import Header from '../components/Header'
 
 const Index = () => {
   return (
     <div>
 
-        <Navbar brand='Flex' right>
-          <NavItem href='components.html'>List a Membership</NavItem>
-          <NavItem href='components.html'>About</NavItem>
-          <NavItem href='components.html'>Sign Up</NavItem>
-          <NavItem href='get-started.html'>Login</NavItem>
-        </Navbar>
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Proxima Nova"></link>
 
+
+      <Header />
 
         <div className="background-container">
           <div className="search-container">
@@ -44,7 +41,7 @@ const Index = () => {
             Rent short-term gym memberships.
           </h4>
           <h4>
-            Work out wherever you want. 
+            Work out wherever you want.
           </h4>
         </div>
     </div>
