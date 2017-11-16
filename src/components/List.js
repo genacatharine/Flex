@@ -35,7 +35,6 @@ const List = () => {
 </form>
 </div>
 </div>
-
 )
 }
 
