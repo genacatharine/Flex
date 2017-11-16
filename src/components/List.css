@@ -8,6 +8,12 @@
   color: black;
 }
 
+.genaslistpage p {
+  color: black !important;
+}
+
+
+
 .genaslistpage .input-field label {
   color: black !important;
   font-size: 8em

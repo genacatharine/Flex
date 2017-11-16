@@ -17,8 +17,7 @@ const List = () => {
   <form>
     <Row>
       <div className="genas-input">
-      	<Input class="selectgym" type='select'>
-          <p>Select your gym</p>
+      	<Input class="selectgym" type='select' label="Select your gym">
       		<option value='1'>Colorado Athletic Club</option>
       		<option value='2'>24 Hour Fitness</option>
       		<option value='3'>Boulder One Fitness</option>
