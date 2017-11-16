@@ -11,4 +11,8 @@ const Payment =() =>{
   )
 }
 
+<<<<<<< HEAD
 export default Compose
+=======
+export default Payment
+>>>>>>> f5698500ceb272876e9829f5d9a8007b01b40b39
