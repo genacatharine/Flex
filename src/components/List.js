@@ -1,12 +1,28 @@
 import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
+import './List.css';
+import Header from './Header'
+var mdp = require('multipleDatePicker');
 
 const List = () => {
   return (
-      <div>
-        <h1>LIST YOUR MEMBERSHIP RENTAL HERE</h1>
-      </div>
-    )
+<div>
+  <Header />
+  <h5>LIST YOUR MEMBERSHIP RENTAL HERE</h5>
+  <form>
+    <Row>
+	<Input class="selectgym" type='select' label="Select Your Gym" defaultValue='2'>
+		<option value='1'>Colorado Athletic Club</option>
+		<option value='2'>24 Hour Fitness</option>
+		<option value='3'>Boulder One Fitness</option>
+	</Input>
+</Row>
+<div>
+    <multiple-date-picker></multiple-date-picker>
+</div>
+</form>
+</div>
+)
 }
 
 export default List
