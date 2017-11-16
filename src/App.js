@@ -10,9 +10,18 @@ import List from './components/List'
 import history from './components/History'
 import ErrorPage from './components/ErrorPage'
 import ListYourMembership from './components/ListYourMembership'
+import Search from './components/Search'
 
 
 class App extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+
+    }
+  }
+
   render() {
     return (
 
@@ -23,6 +32,7 @@ class App extends Component {
             <Route path="/payment" component={Payment} />
             <Route path="/list" component={List} />
             <Route path="/list-your-membership" component={ListYourMembership} />
+            <Route path="/search" component={Search} />
             <Route path="/:id" component={ErrorPage} />
             <HomePage />
           </Switch>

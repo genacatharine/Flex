@@ -18,14 +18,16 @@ const Index = () => {
               <h5>Rent short-term gym memberships. Work out wherever you want.</h5>
               <div>
                 <Row>
-                	<Autocomplete title='Where' data={{}}/>
+                	<Autocomplete title='Where' data={{
+                    'apple': 'test'
+                  }}/>
                 </Row>
                 <Row>
                   <Input label="When" name='on' type='date' onChange={function(e, value) {}} />
                 </Row>
               </div>
               <div>
-                <Button className="search-button" waves='light'>Search</Button>
+                <a href="search"><Button className="search-button" waves='light'>Search</Button></a>
               </div>
             </div>
           </div>

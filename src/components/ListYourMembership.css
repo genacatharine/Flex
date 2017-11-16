@@ -10,4 +10,10 @@
 
 .list-your-membership-header {
   color: white;
+  letter-spacing: 0.039604em;
+  font-size: 100px;
+}
+
+.list-your-membership-button-div {
+  text-align: center;
 }

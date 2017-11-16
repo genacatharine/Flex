@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
 import './ListYourMembership.css';
 
 const ListYourMembership = () => {
@@ -15,8 +16,11 @@ const ListYourMembership = () => {
         <div className="search-container">
           <div>
             <h1 className="list-your-membership-header" >List Your</h1>
-            <h1 className="list-your-membership-header">Gym Membership</h1>
+            <h1 className="list-your-membership-header" >Gym Membership</h1>
           </div>
+        </div>
+        <div className="list-your-membership-button-div">
+          <a href="list"><Button href="list" className="search-button" waves='light'>List Your Membership</Button></a>
         </div>
       </div>
 
