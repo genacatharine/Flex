@@ -2,7 +2,6 @@ import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
 import './List.css';
 import Header from './Header'
-var mdp = require('multipleDatePicker');
 
 const List = () => {
   return (
@@ -18,7 +17,7 @@ const List = () => {
 	</Input>
 </Row>
 <div>
-    <multiple-date-picker></multiple-date-picker>
+
 </div>
 </form>
 </div>
