@@ -16,18 +16,18 @@ nav .brand-logo {
   font-family: sans-serif
 }
 
-.homepage-header {
+.home .homepage-header {
   color: white;
   display: inline-block;
   letter-spacing: 0.039604em;
   font-size: 100px;
 }
 
-h5 {
-  color: white;
+.home h5 {
+  color: inherit;
 }
 
-.search-container {
+.home .search-container {
   margin-left: 200px;
   margin-right: 200px;
   text-align: center;
@@ -36,36 +36,40 @@ h5 {
   align-items:center;
 }
 
-.row {
+.home .row {
   display: inline-block;
   margin-bottom: -10px;
 }
 
-input[type=text] {
+.home input[type=text] {
   border-bottom: 1px solid white !important;
   border-bottom: 1px solid white !important;
   box-shadow: 0 1px 0 0 white !important;
 }
 
-.btn:focus {
+.home .btn:focus {
   background-color: white;
 }
 
-.input-field label {
+.home .jacks-inputs {
   color: white !important;
 }
 
-.search-button {
+.home .jacks-header {
+  color: white;
+}
+
+.home .search-button {
   color: black;
   background-color: white;
   margin-top: 10px;
 }
 
-.search-button:hover {
+.home .search-button:hover {
   background-color: white;
 }
 
-.homepage-background-container {
+.home .homepage-background-container {
   padding-top: 145px;
   background-image: url('https://static1.squarespace.com/static/5995d96dbf629ab9fc226638/t/59c18454e3df28dbafd180ad/1505854552351/');
   background-repeat: no-repeat;
@@ -76,30 +80,30 @@ input[type=text] {
 }
 
 @media only screen and (max-width: 600px) {
-  .background-container {
+  .home .background-container {
       padding-top: 60px;
   }
-  .search-container {
+  .home .search-container {
     margin-left: 100px;
     margin-right: 100px;
   }
-  h5 {
+  .home h5 {
     font-size: 20px;
   }
-  .search-button {
+  .home .search-button {
     display: inherit;
   }
 }
 
-html {
+.home html {
   color: white !important;
 }
 
 @media only screen and (max-width: 733px) {
-  .background-container {
+  .home .background-container {
       padding-top: 70px;
   }
-  .search-button {
+  .home .search-button {
     display: inline;
   }
 }
@@ -114,12 +118,12 @@ nav .brand-logo {
   }
 }
 
-.homepage-about {
+.home .homepage-about {
   margin-top: 100px;
   text-align: center;
 }
 
-.homepage-about h4 {
+.home .homepage-about h4 {
   margin-left: 200px;
   margin-right: 200px;
   color: black;
@@ -169,6 +173,10 @@ a#google-btn {
   padding: 0 18px;
 }
 
-.button-container {
+.home .button-container {
 
+}
+
+.modal h4 {
+  color: white;
 }
