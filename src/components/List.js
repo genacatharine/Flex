@@ -2,6 +2,7 @@ import React from 'react'
 import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-materialize'
 
 const List = () => {
+  return (
 <div>
   <h1>LIST YOUR MEMBERSHIP RENTAL HERE</h1>
   <form action="" method="POST">
@@ -36,7 +37,9 @@ const List = () => {
             </div>
             <a id="js-edmundsLink" class="edmundsLink" href="http://www.edmunds.com/?id=apis" target="_blank"><div class="js-edmundsLogo edmundsLogo edmundsLogo--invisible"></div></a>
         </form>
+
 </div>
+)
 }
 
 export default List
