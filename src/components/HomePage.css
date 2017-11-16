@@ -16,7 +16,7 @@ nav .brand-logo {
   font-family: sans-serif
 }
 
-h1 {
+.homepage-header {
   color: white;
   display: inline-block;
   letter-spacing: 0.039604em;
@@ -65,7 +65,7 @@ input[type=text] {
   background-color: white;
 }
 
-.background-container {
+.homepage-background-container {
   padding-top: 145px;
   background-image: url('https://static1.squarespace.com/static/5995d96dbf629ab9fc226638/t/59c18454e3df28dbafd180ad/1505854552351/');
   background-repeat: no-repeat;
