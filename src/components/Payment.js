@@ -11,4 +11,4 @@ const Payment =() =>{
   )
 }
 
-export default Compose
+export default Payment
