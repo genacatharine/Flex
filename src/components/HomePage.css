@@ -125,3 +125,50 @@ nav .brand-logo {
   color: black;
   background-color: white;
 }
+
+.modal {
+  width: 425px !important;
+  max-height: 600px !important;
+  height: 800px !important;
+  background-color: black;
+}
+
+.modal .modal-footer {
+  display: none;
+}
+
+#facebook-btn {
+  display: inline-block;
+  color: white;
+  width: 100%;
+  background-color: blue;
+  height: 50px;
+  line-height: 49px;
+  font-size: 18px;
+  padding: 0 18px;
+}
+
+a#facebook-btn {
+  padding-left: 100px !important;
+}
+
+a#google-btn {
+  padding-left: 100px !important;
+}
+
+#google-btn {
+  padding-left: 100px;
+  display: inline-block;
+  margin-top: 15px;
+  color: black;
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  line-height: 49px;
+  font-size: 18px;
+  padding: 0 18px;
+}
+
+.button-container {
+
+}
