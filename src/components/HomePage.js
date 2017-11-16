@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 const Index = () => {
   return (
-    <div>
+    <div className="home">
 
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Proxima Nova"></link>
 
@@ -15,8 +15,10 @@ const Index = () => {
           <div className="search-container">
             <div>
               <h1 className="homepage-header" >FLEX</h1>
-              <h5>Rent short-term gym memberships. Work out wherever you want.</h5>
-              <div>
+              <div className="jacks-header">
+                <h5>Rent short-term gym memberships. Work out wherever you want.</h5>
+              </div>
+              <div className="jacks-inputs">
                 <Row>
                 	<Autocomplete title='Where' data={{}}/>
                 </Row>

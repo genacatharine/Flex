@@ -1,10 +1,15 @@
 h5 {
-  color: black
+  color: black;
 }
 
-.input-field label{
+/*.input-field label {
   color: black !important;
   font-size: 8em
+}*/
+
+.input-field label {
+  color: inherit;
+  font-size: inherit;
 }
 
 .selectyourgym {
