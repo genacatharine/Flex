@@ -6,6 +6,7 @@ import {Button, Icon, Navbar, NavItem, Row, Input} from 'react-materialize'
 
 import Index from './components/Index'
 
+
 class App extends Component {
   render() {
     return (
