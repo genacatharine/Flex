@@ -9,7 +9,7 @@ const ListYourMembership = () => {
 
     // https://static1.squarespace.com/static/5995d96dbf629ab9fc226638/t/59d29e3912abd95b114165e0/1506977910596/Equinox.jpg
 
-    <div class="list-your-membership">
+    <div className="list-your-membership">
       <Header />
 
       <div className="list-your-membership-background-container">

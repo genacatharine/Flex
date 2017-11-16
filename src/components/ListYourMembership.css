@@ -18,3 +18,12 @@
 .list-your-membership-button-div {
   text-align: center;
 }
+
+.list-your-membership .btn {
+  color: black;
+  background-color: white;
+}
+
+.list-your-membership .search-button:hover {
+  background-color: white;
+}

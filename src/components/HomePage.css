@@ -45,6 +45,11 @@ nav .brand-logo {
   border-bottom: 1px solid white !important;
   border-bottom: 1px solid white !important;
   box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+}
+
+.home .input-field label {
+  color: white !important;
 }
 
 .home .btn:focus {
