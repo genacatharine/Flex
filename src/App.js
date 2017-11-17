@@ -5,7 +5,7 @@ import $ from 'jquery'
 import {Button, Icon, Navbar, NavItem, Row, Input} from 'react-materialize'
 
 import Index from './components/Index'
-import Payment from './components/Payment'
+import Payment from './Payment'
 import List from './components/List'
 import history from './components/History'
 
