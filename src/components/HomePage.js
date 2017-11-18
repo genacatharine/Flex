@@ -3,31 +3,41 @@ import {Button, Icon, Navbar, NavItem, Row, Input, Autocomplete} from 'react-mat
 import './HomePage.css';
 import Header from '../components/Header'
 
-const Index = () => {
+const Index = ({modal, changeModalState, createUser}) => {
+
+  // var autocomplete = new google.maps.places.Autocomplete(input);
+
   return (
     <div className="home">
 
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Proxima Nova"></link>
-
-      <Header />
+{/* AIzaSyCD_rf23mAaAl7HvGt1U6WEHByQb-WVD3M */}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD_rf23mAaAl7HvGt1U6WEHByQb-WVD3M&libraries=places&callback=initMap"
+        async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD_rf23mAaAl7HvGt1U6WEHByQb-WVD3M&libraries=places"></script>
 
         <div className="homepage-background-container">
-          <div className="search-container">
-            <div>
-              <h1 className="homepage-header" >FLEX</h1>
-              <div className="jacks-header">
-                <h5>Rent short-term gym memberships. Work out wherever you want.</h5>
-              </div>
-              <div className="jacks-inputs">
-                <Row>
-                	<Autocomplete title='Where' data={{}}/>
-                </Row>
-                <Row>
-                  <Input label="When" name='on' type='date' onChange={function(e, value) {}} />
-                </Row>
-              </div>
+          <div className="homepage-img-container">
+            <img className="background-img" src="https://static1.squarespace.com/static/5995d96dbf629ab9fc226638/t/59c18454e3df28dbafd180ad/1505854552351/"></img>
+          </div>
+          <div>
+            <div className="search-container">
               <div>
-                <a href="search"><Button className="search-button" waves='light'>Search</Button></a>
+                <h1 className="homepage-header" >FLEX</h1>
+                <div className="jacks-header">
+                  <h5>GYM MEMBERSHIP SHARE</h5>
+                </div>
+                <div className="jacks-inputs">
+                  <Row>
+                  	<Autocomplete title='Where' data={{}}/>
+                  </Row>
+                  <Row>
+                    <Input label="When" name='on' type='date' onChange={function(e, value) {}} />
+                  </Row>
+                </div>
+                <div>
+                  <a href="search"><Button className="search-button" waves='light'>Search</Button></a>
+                </div>
               </div>
             </div>
           </div>
