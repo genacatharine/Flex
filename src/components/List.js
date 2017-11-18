@@ -4,11 +4,10 @@ import './List.css';
 import Header from './Header'
 import DatePicker from './DatePicker'
 
-const List = () => {
+const List = ({modal}) => {
   return (
 <div>
 
-  <Header />
   <div className="genaslistpage">
 <div className="center">
 

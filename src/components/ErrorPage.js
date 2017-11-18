@@ -6,7 +6,6 @@ const ErrorPage = () => {
 
   return (
     <div>
-      <Header />
       <div>
 
         <h1>Sorry that page doesnt exsist!</h1>
