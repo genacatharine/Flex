@@ -6,7 +6,7 @@ import {Button, Icon, Navbar, NavItem, Row, Input} from 'react-materialize'
 
 
 import HomePage from './components/HomePage'
-import Payment from './components/Payment'
+import Checkout from './components/Checkout.js'
 
 import List from './components/List'
 import history from './components/History'
@@ -32,7 +32,7 @@ class App extends Component {
 
         <Router history={history}>
           <Switch>
-            <Route path="/payment" component={Payment} />
+            <Route path="/checkout" component={Checkout} />
             <Route path="/list" component={List} />
             <Route path="/list-your-membership" component={ListYourMembership} />
             <Route path="/search" component={Search} />
